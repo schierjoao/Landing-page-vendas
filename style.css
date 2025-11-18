@@ -19,7 +19,7 @@ body {
 
 /* Cabeçalho */
 .header {
-  background: #ffe600;
+  background: #080808;
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -33,7 +33,7 @@ body {
   font-weight: 700;
 }
 .logo span {
-  color: #0078d7;
+  color: #57aff8;
 }
 .header input {
   padding: 8px 12px;
@@ -55,8 +55,8 @@ body {
   animation: fadeIn 1.2s ease;
 }
 .imagem-produto img {
-  width: 320px;
-  transition: transform 0.3s ease;
+  width: 110px;
+  transition: transform 0.3s ease-in-out;
 }
 .imagem-produto img:hover {
   transform: scale(1.05);
